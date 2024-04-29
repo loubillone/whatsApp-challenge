@@ -4,25 +4,25 @@
   box-sizing: border-box;
 }
 
-body {
-  height: 100vh;
-}
 .row {
   flex-wrap: nowrap;
+  height: 100vh;
 }
-/*COLUMNA ICONOS TOP*/
+
+/*COLUMNA ICONOS*/
+
 .container-iconos {
+  height: 73vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 100%;
 }
+
 .columna-iconos {
   width: 3.3rem;
   background-color: var(--fondo-columna-iconos);
 }
-
 .color-columna-iconos {
   color: var(--color-iconos-columna);
   padding: 0.7rem;
@@ -44,6 +44,7 @@ body {
 }
 
 /*COLUMNA ICONOS FOOTER*/
+
 .container-iconos-footer {
   height: 19.5vh;
   display: flex;
@@ -51,7 +52,6 @@ body {
   justify-content: flex-end;
   align-items: center;
 }
-
 .iconos-foto-perfil {
   width: 34px;
   height: 34px;
@@ -66,10 +66,6 @@ body {
   background-color: var(--fondo-columna-chats);
 }
 
-.chat-titulo {
-  color: var(--color-texto);
-}
-
 .container-chats-top {
   display: flex;
   justify-content: space-between;
@@ -80,6 +76,7 @@ body {
   font-size: 1.5rem;
   font-weight: bold;
   margin: 1rem;
+  color: var(--color-texto);
 }
 
 .container-buscador {
@@ -94,6 +91,6 @@ body {
 
 /*PANTALLA CHATS*/
 .columna-principal {
+  width: 45rem;
   border: 1px black solid;
-  /* width: 100%; */
 }
