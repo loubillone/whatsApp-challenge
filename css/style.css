@@ -24,6 +24,7 @@
   width: 3.4rem;
   background-color: var(--fondo-columna-iconos);
 }
+
 .color-columna-iconos {
   color: var(--color-iconos-columna);
   padding: 0.7rem;
@@ -44,7 +45,7 @@
   padding-top: 0.9rem;
 }
 
-/*COLUMNA ICONOS FOOTER*/
+/*ICONOS FOOTER*/
 
 .container-iconos-footer {
   height: 19.5vh;
@@ -60,7 +61,7 @@
   border-radius: 100%;
 }
 
-/*CHATS*/
+/*COLUMNA CHATS*/
 
 .columna-chats {
   width: 25rem;
@@ -82,6 +83,8 @@
   color: var(--color-texto);
 }
 
+/*BUSCADOR*/
+
 .container-buscador {
   display: flex;
   justify-content: space-around;
@@ -93,23 +96,52 @@
 }
 
 .input {
-  padding-left: 2rem;
+  padding-left: 3rem;
   width: 20rem;
   background-color: var(--fondo-columna-iconos);
   border: 0;
+  font-size: 0.9rem;
 }
 
 .input:focus {
   background-color: var(--fondo-columna-iconos);
   color: white;
 }
+
 .lupa-buscador {
   position: absolute;
   left: 0.5rem;
   top: 26%;
 }
 
-/*PANTALLA IMAGEN PRINCIPAL*/
+/*COLUMNA CHATS*/
+
+.container-chat-lista {
+  width: 100%;
+}
+
+.chats {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 3rem;
+  margin-top: 1rem;
+}
+
+.chats img {
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+}
+
+.chat-dia {
+  margin-left: 8rem;
+  font-size: 0.7rem;
+  width: 1rem;
+}
+
+/*COLUMNA IMAGEN PRINCIPAL*/
+
 .columna-principal {
   background-image: url(../assets/whatsDescarga.PNG);
   background-repeat: no-repeat;
