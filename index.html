@@ -21,7 +21,7 @@
   <body>
     <main>
       <!--ICONOS COLUMNA-->
-      <div class="container-fluid">
+      <div class="container-fluid container-general">
         <div class="row">
           <div class="col-1 columna-iconos">
             <div class="my-2 container-iconos">
@@ -72,23 +72,19 @@
             </div>
 
             <div class="container-buscador">
-              <nav class="navbar navbar-light bg-light">
-                <div class="container-fluid">
-                  <form class="d-flex">
-                    <input
-                      class="form-control me-2 input"
-                      type="search"
-                      placeholder="Buscar"
-                      aria-label="Search"
-                    />
-                  </form>
-                </div>
-              </nav>
-
+              <div class="input-container">
+                <input
+                  class="input form-control"
+                  type="search"
+                  placeholder="Buscar"
+                  aria-label="Search"
+                />
+                <i class="fa fa-search lupa-buscador"></i>
+              </div>
               <i class="fa fa-sort-amount-desc" aria-hidden="true"></i>
             </div>
           </div>
-          <div class="col-8 columna-principal">chat</div>
+          <div class="col-8 columna-principal"></div>
         </div>
       </div>
     </main>

@@ -7,6 +7,7 @@
 .row {
   flex-wrap: nowrap;
   height: 100vh;
+  width: 100vw;
 }
 
 /*COLUMNA ICONOS*/
@@ -20,13 +21,13 @@
 }
 
 .columna-iconos {
-  width: 3.3rem;
+  width: 3.4rem;
   background-color: var(--fondo-columna-iconos);
 }
 .color-columna-iconos {
   color: var(--color-iconos-columna);
   padding: 0.7rem;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .container-icono-marca {
@@ -51,6 +52,7 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  font-size: 1.2rem;
 }
 .iconos-foto-perfil {
   width: 34px;
@@ -61,9 +63,10 @@
 /*CHATS*/
 
 .columna-chats {
-  width: 23rem;
-  border: 1px black solid;
+  width: 25rem;
+  /* border: 1px black solid; */
   background-color: var(--fondo-columna-chats);
+  color: var(--color-iconos-columna);
 }
 
 .container-chats-top {
@@ -85,12 +88,31 @@
   align-items: center;
 }
 
-.input {
-  width: 15rem;
+.input-container {
+  position: relative;
 }
 
-/*PANTALLA CHATS*/
+.input {
+  padding-left: 2rem;
+  width: 20rem;
+  background-color: var(--fondo-columna-iconos);
+  border: 0;
+}
+
+.input:focus {
+  background-color: var(--fondo-columna-iconos);
+  color: white;
+}
+.lupa-buscador {
+  position: absolute;
+  left: 0.5rem;
+  top: 26%;
+}
+
+/*PANTALLA IMAGEN PRINCIPAL*/
 .columna-principal {
-  width: 45rem;
-  border: 1px black solid;
+  background-image: url(../assets/whatsDescarga.PNG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
