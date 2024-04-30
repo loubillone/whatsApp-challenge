@@ -63,6 +63,16 @@
 
 /*COLUMNA CHATS*/
 
+.container-fijo {
+  background-color: var(--fondo-columna-chats);
+}
+.chats {
+  height: 100%;
+  width: 100%;
+}
+.chats:hover {
+  background-color: var(--color-chat-hover);
+}
 .columna-chats {
   width: 25rem;
   /* border: 1px black solid; */
@@ -83,6 +93,42 @@
   color: var(--color-texto);
 }
 
+.chat-nombre {
+  color: var(--color-texto-nombre);
+}
+
+.chat-texto {
+  color: var(--color-texto-mensaje);
+  font-size: 0.9rem;
+}
+
+.scroll-container {
+  display: block;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+/*ESTILOS PERSONALIZADOS DE BARRA DE DESPLAZAMIENTO*/
+
+/* Estilos para la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 10px; /* Ancho de la barra de desplazamiento */
+}
+
+/* Estilos para el riel de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color de fondo del riel */
+}
+
+/* Estilos para el pulgar de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color del pulgar */
+}
+
+/* Estilos cuando el usuario pasa el ratón sobre el pulgar de la barra de desplazamiento */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color del pulgar al pasar el ratón */
+}
 /*BUSCADOR*/
 
 .container-buscador {
