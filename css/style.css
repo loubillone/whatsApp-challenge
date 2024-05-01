@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  flex-wrap: nowrap;
+  height: 100vh;
+  width: 100vw;
+}
+
+/*COLUMNA ICONOS*/
+
+.container-iconos {
+  height: 73vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.columna-iconos {
+  width: 3.4rem;
+  background-color: var(--fondo-columna-iconos);
+}
+
+.color-columna-iconos {
+  color: var(--color-iconos-columna);
+  padding: 0.7rem;
+  font-size: 1.2rem;
+}
+
+.container-icono-marca {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  background-color: var(--sombra);
+  border-radius: 100%;
+}
+
+.icono-marca {
+  padding-top: 0.9rem;
+}
+
+/*ICONOS FOOTER*/
+
+.container-iconos-footer {
+  height: 19.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.iconos-foto-perfil {
+  width: 34px;
+  height: 34px;
+  border-radius: 100%;
+}
+
+/*COLUMNA CHATS*/
+
+.chats {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 4.5rem;
+}
+
+.chat-titulo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem;
+  color: var(--color-texto);
+}
+
+hr {
+  margin: 0;
+  width: 85%;
+  margin-left: 3.5rem;
+}
+
+.chats img {
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+}
+
+.container-conversacion {
+  margin-left: 1rem;
+  width: 40%;
+}
+.chat-dia {
+  margin-left: 10rem;
+  font-size: 0.7rem;
+}
+
+.chat-nombre {
+  color: var(--color-texto-nombre);
+}
+
+.chat-texto {
+  color: var(--color-texto-mensaje);
+  font-size: 0.8rem;
+}
+
+.container-fijo {
+  background-color: var(--fondo-columna-chats);
+}
+
+.chats:hover {
+  background-color: var(--color-chat-hover);
+}
+
+.columna-chats {
+  width: 25rem;
+  padding: 0;
+  background-color: var(--fondo-columna-chats);
+  color: var(--color-iconos-columna);
+}
+
+.container-chats-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scroll-container {
+  display: block;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+/*ESTILOS PERSONALIZADOS DE BARRA DE DESPLAZAMIENTO*/
+
+/* Estilos para la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 5px; /* Ancho de la barra de desplazamiento */
+}
+
+/* Estilos para el riel de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+  background: #111b21; /* Color de fondo del riel */
+}
+
+/* Estilos para el pulgar de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+  background: #202c33; /* Color del pulgar */
+}
+
+/* Estilos cuando el usuario pasa el ratón sobre el pulgar de la barra de desplazamiento */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color del pulgar al pasar el ratón */
+}
+/*BUSCADOR*/
+
+.container-buscador {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.input-container {
+  position: relative;
+}
+
+.input {
+  padding-left: 3rem;
+  width: 20rem;
+  background-color: var(--fondo-columna-iconos);
+  border: 0;
+  font-size: 0.9rem;
+}
+
+.input:focus {
+  background-color: var(--fondo-columna-iconos);
+  color: white;
+}
+
+.lupa-buscador {
+  position: absolute;
+  left: 0.5rem;
+  top: 26%;
+}
+
+/*COLUMNA IMAGEN PRINCIPAL*/
+
+.columna-principal {
+  background-image: url(../assets/whatsDescarga.PNG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
