@@ -63,48 +63,11 @@
 
 /*COLUMNA CHATS*/
 
-.container-chat-lista {
-  width: 100%;
-}
-
 .chats {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 3rem;
-  margin-top: 1rem;
-}
-
-.chats img {
-  width: 48px;
-  height: 48px;
-  border-radius: 100%;
-}
-
-.chat-dia {
-  margin-left: 8rem;
-  font-size: 0.7rem;
-  width: 1rem;
-}
-
-.container-fijo {
-  background-color: var(--fondo-columna-chats);
-}
-
-.chats:hover {
-  background-color: var(--color-chat-hover);
-}
-.columna-chats {
-  width: 25rem;
-  /* border: 1px black solid; */
-  background-color: var(--fondo-columna-chats);
-  color: var(--color-iconos-columna);
-}
-
-.container-chats-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  height: 4.5rem;
 }
 
 .chat-titulo {
@@ -114,6 +77,27 @@
   color: var(--color-texto);
 }
 
+hr {
+  margin: 0;
+  width: 85%;
+  margin-left: 3.5rem;
+}
+
+.chats img {
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+}
+
+.container-conversacion {
+  margin-left: 1rem;
+  width: 40%;
+}
+.chat-dia {
+  margin-left: 10rem;
+  font-size: 0.7rem;
+}
+
 .chat-nombre {
   color: var(--color-texto-nombre);
 }
@@ -121,6 +105,27 @@
 .chat-texto {
   color: var(--color-texto-mensaje);
   font-size: 0.8rem;
+}
+
+.container-fijo {
+  background-color: var(--fondo-columna-chats);
+}
+
+.chats:hover {
+  background-color: var(--color-chat-hover);
+}
+
+.columna-chats {
+  width: 25rem;
+  padding: 0;
+  background-color: var(--fondo-columna-chats);
+  color: var(--color-iconos-columna);
+}
+
+.container-chats-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .scroll-container {
@@ -133,17 +138,17 @@
 
 /* Estilos para la barra de desplazamiento */
 ::-webkit-scrollbar {
-  width: 10px; /* Ancho de la barra de desplazamiento */
+  width: 5px; /* Ancho de la barra de desplazamiento */
 }
 
 /* Estilos para el riel de la barra de desplazamiento */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; /* Color de fondo del riel */
+  background: #111b21; /* Color de fondo del riel */
 }
 
 /* Estilos para el pulgar de la barra de desplazamiento */
 ::-webkit-scrollbar-thumb {
-  background: #888; /* Color del pulgar */
+  background: #202c33; /* Color del pulgar */
 }
 
 /* Estilos cuando el usuario pasa el ratón sobre el pulgar de la barra de desplazamiento */
