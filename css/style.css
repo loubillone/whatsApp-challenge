@@ -31,18 +31,12 @@
   font-size: 1.2rem;
 }
 
-.container-icono-marca {
+.container-icono-marca:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40px;
-  width: 40px;
   background-color: var(--sombra);
   border-radius: 100%;
-}
-
-.icono-marca {
-  padding-top: 0.9rem;
 }
 
 /*ICONOS FOOTER*/
@@ -55,6 +49,7 @@
   align-items: center;
   font-size: 1.2rem;
 }
+
 .iconos-foto-perfil {
   width: 34px;
   height: 34px;
@@ -93,6 +88,7 @@ hr {
   margin-left: 1rem;
   width: 40%;
 }
+
 .chat-dia {
   margin-left: 10rem;
   font-size: 0.7rem;
